@@ -1,0 +1,39 @@
+.mobile-navbar-container {
+  /* position: fixed; */
+  /* bottom: 0px; */
+  width: 100%;
+  height: 56px;
+  padding: 16px;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px 12px 0px 0px;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: #d0d9e6;
+  box-shadow: 0 7px 32px 0 rgba(0, 0, 0, 0.05);
+}
+@media screen and (min-width: 768px) {
+  .mobile-navbar-container {
+    display: none;
+  }
+}
+
+.mobile-navbar-icons-btn {
+  text-decoration: none;
+}
+
+.mobile-navbar-icons {
+  font-size: 25px;
+  color: #7a8493;
+}
+
+.mobile-navbar-logout-icon-btn {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+.mobile-view-logout-hidden-text {
+  display: none;
+}

@@ -1,0 +1,114 @@
+.my-trips-page-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-trips-empty-view-container {
+  /* width: 100%;
+  height: 100%; */
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .my-trips-empty-view-container {
+    background-color: #304766;
+  }
+}
+
+.empty-mssg-card {
+  text-align: center;
+  width: 226px;
+}
+
+.empty-bag-img {
+  width: 63px;
+  height: 75px;
+}
+
+.no-upcoming-trips-heading {
+  height: 32px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.10000000149011612px;
+  color: #191919;
+}
+
+.no-upcoming-trips-heading-desc {
+  width: 226px;
+  height: 48px;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  color: rgba(25, 25, 25, 0.8);
+}
+
+@media screen and (min-width: 768px) {
+  .no-upcoming-trips-heading {
+    color: #ffffff;
+  }
+  .no-upcoming-trips-heading-desc {
+    color: #ffffff;
+  }
+}
+
+.link-element {
+  text-decoration: none;
+  color: inherit;
+}
+
+.my-trips-empty-view-book-trip-button {
+  height: 32px;
+  margin-top: 28px;
+  padding: 6px 12px 6px 12px;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 rgba(0, 0, 0, 0.08);
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+}
+
+.my-trips-content-container {
+  flex-grow: 1;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-trips-heading {
+  width: 83px;
+  height: 24px;
+  margin: 0;
+  margin-top: 66px;
+  margin-bottom: 32px;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  color: #334155;
+}
+
+.my-trips-list {
+  flex-grow: 1;
+  padding: 0;
+  margin: 0;
+}

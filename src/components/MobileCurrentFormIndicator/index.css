@@ -1,0 +1,32 @@
+.mobile-form-indicator-list {
+  display: flex;
+  justify-content: space-between;
+  width: 328px;
+  height: 4px;
+  margin: 48px 16px;
+  padding: 0;
+}
+
+@media screen and (min-width: 361px) {
+  .mobile-form-indicator-list {
+    margin: 48px auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-form-indicator-list {
+    display: none;
+  }
+}
+
+.mobile-form-indicator-item {
+  list-style: none;
+  width: 59.2px;
+  height: 4px;
+  border-radius: 12px;
+  background-color: rgba(231, 231, 231, 1);
+}
+
+.active-mobile-form {
+  background-color: rgba(37, 99, 235, 0.8);
+}

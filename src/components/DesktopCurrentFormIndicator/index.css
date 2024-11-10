@@ -1,0 +1,69 @@
+.desktop-form-indicator {
+  width: 268px;
+  height: 100%;
+  border-radius: 16px 0 0 16px;
+  background-color: #ffffff;
+  display: none;
+  margin: 0;
+  padding: 32px 0 195px 48px;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-form-indicator {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+}
+
+.desktop-form-indicator-item {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  list-style: none;
+}
+
+.current-form-position-number {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #334155;
+  border-radius: 50%;
+  border: 1px solid #cbd5e1;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+
+.desktop-form-indicator-tick-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.active-desktop-form-position {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+}
+
+.current-desktop-form-name-display-text {
+  height: 20px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #334155;
+}
+
+.active-desktop-form-display-text {
+  color: #3b82f6;
+}

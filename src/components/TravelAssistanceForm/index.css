@@ -1,0 +1,188 @@
+.travel-assistance-form-container {
+  /* width: 100%;
+  height: 100%; */
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .travel-assistance-form-container {
+    border-radius: 0 16px 16px 0;
+    background-color: #304766;
+  }
+}
+
+.travel-assistance-h1 {
+  height: 32px;
+  margin: 0;
+  margin-bottom: 8px;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+}
+
+.travel-assistance-desc {
+  height: 24px;
+  margin: 0;
+  margin-bottom: 25px;
+  color: #5c6777;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+
+.travel-assistance-form {
+  width: 100%;
+  text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+  .travel-assistance-h1 {
+    width: 100%;
+    text-align: center;
+    height: 29px;
+    margin: 71px auto 8px auto;
+
+    font-size: 24px;
+    line-height: 29.05px;
+    color: #f1f5f9;
+  }
+
+  .travel-assistance-desc {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    font-size: 16px;
+    color: #f1f5f9;
+  }
+
+  .travel-assistance-form {
+    width: 422px;
+    max-width: 90%;
+    min-height: 188px;
+    max-height: 274px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 34px 48px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+.travel-assistance-checkbox-container {
+  height: 20px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.travel-assistance-checkbox {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background-color: #2563eb;
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+.travel-assistance-input-feilds-labels {
+  height: 20px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #334155;
+}
+
+.travel-assistance-select-input-feilds-container {
+  width: 100%;
+  margin-top: 32px;
+  height: 62px;
+  text-align: left;
+}
+
+.travel-assistance-select-input-feild {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 38px;
+  margin-top: 4px;
+  padding: 9px 13px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+  border: 1px solid #cbd5e1;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #0f172a;
+}
+
+.option-item {
+  margin: 0 8px;
+  width: 100%;
+  height: 32px;
+  padding: 6px 8px 6px 12px;
+  border-radius: 8px;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #334155;
+  border: 0 1px 0 1px solid #cbd5e1;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.first-option-item {
+  border-top: 1px solid;
+}
+
+.last-option-item {
+  border-bottom: 1px solid;
+}
+
+.active-option {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.travel-assistance-btn {
+  height: 32px;
+  margin-top: 48px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+}
+
+.travel-assistance-previous-btn {
+  background-color: #dbeafe;
+  margin-right: 10px;
+  color: #2563eb;
+}
+
+.travel-assistance-next-btn {
+  background-color: #2563eb;
+}

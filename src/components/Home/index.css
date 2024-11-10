@@ -1,0 +1,110 @@
+.home-page-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-banner-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 72px;
+  padding: 0 16px;
+}
+@media screen and (min-width: 768px) {
+  .home-banner-container {
+    flex-direction: row;
+    margin-top: 0;
+    padding: 51px 162px 0 162px;
+    flex-grow: 1;
+    background-color: #f5f5f5;
+  }
+}
+.home-page-mobile-view-girl-image {
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .home-page-mobile-view-girl-image {
+    display: none;
+  }
+}
+.home-page-desktop-view-girl-image {
+  display: none;
+  height: 100%;
+  width: 50%;
+  max-width: 644px;
+  max-height: 624px;
+}
+@media screen and (min-width: 768px) {
+  .home-page-desktop-view-girl-image {
+    display: block;
+    order: 1;
+  }
+}
+.home-banner-info-container {
+  width: 100%;
+  margin-top: 48px;
+  color: #304766;
+}
+@media screen and (min-width: 362px) and (max-width: 767px) {
+  .home-banner-info-container {
+    text-align: center;
+  }
+}
+.home-banner-heading {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.10000000149011612px;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .home-banner-heading {
+    font-size: 56px;
+    line-height: 72px;
+  }
+}
+.home-banner-description {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.20000000298023224px;
+  margin: 0;
+  margin-top: 32px;
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .home-banner-description {
+    font-size: 20px;
+    line-height: 37px;
+  }
+}
+.home-book-a-new-trip-link {
+  text-decoration: none;
+}
+.book-trip-button {
+  width: 175px;
+  height: 48px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  margin-top: 56px;
+  background-color: #304766;
+  border-radius: 8px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .book-trip-button {
+    margin-left: 0;
+    margin-top: 32px;
+  }
+}
